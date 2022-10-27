@@ -5,66 +5,34 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
-    title: "Data Science",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/browse/data-science",
+    title: "Deep Learning Specialization by Andrew NG",
+    cardImage: "assets/images/education-page/cour.png",
+    moocLink: "https://www.coursera.org/learn/neural-networks-deep-learning",
   },
   {
-    title: "Cryptography",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
+    title: "TensorFlow: Data and Deployment Specialization by Laurence Moroney",
+    cardImage: "assets/images/education-page/cour.png",
+    moocLink: "https://www.coursera.org/specializations/tensorflow-data-and-deployment",
   },
   {
-    title: "Machine Learning",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/machine-learning",
+    title: "Modern Computer Vision™ PyTorch, TensorFlow2, Keras OpenCV4 by Rajeev Dr. Ratan",
+    cardImage: "assets/images/education-page/ude.png",
+    moocLink: "https://www.udemy.com/course/modern-computer-vision/",
   },
   {
-    title: "Introduction to HTML 5",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+    title: "AI for Medical Diagnosis by Pranav Rajpurkar",
+    cardImage: "assets/images/education-page/cour.png",
+    moocLink: "https://www.coursera.org/specializations/ai-for-medicine",
   },
   {
-    title: "Introduction to CSS 3",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+    title: "Practical AI with Python and Reinforcement Learning by Jose Portilla",
+    cardImage: "assets/images/education-page/ude.png",
+    moocLink: "https://www.udemy.com/course/practical-ai-with-python-and-reinforcement-learning/",
   },
   {
-    title: "Javascript",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-javascript--ud803",
-  },
-  {
-    title: "Bootstrap 4",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/bootstrap-4-tutorials/",
-  },
-  {
-    title: "Intro to React",
-    cardImage: "assets/images/education-page/edx.svg",
-    moocLink: "https://www.edx.org/learn/reactjs",
-  },
-  {
-    title: "Intro to React Native",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink:
-      "https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D",
-  },
-  {
-    title: "NodeJS, Express and MongoDB",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/server-side-nodejs",
-  },
-  {
-    title: "XML-AJAX",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/xml-from-beginner-to-expert/",
-  },
-  {
-    title: "Data Structures & Algorithms",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink:
-      "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
+    title: "Deep Learning with PyTorch: Zero to GANs Jovian AI",
+    cardImage: "assets/images/education-page/jov.png",
+    moocLink: "https://www.youtube.com/playlist?list=PLyMom0n-MBroupZiLfVSZqK5asX8KfoHL",
   },
 ];
 
