@@ -74,6 +74,12 @@ const volunteershipcards = [
       "Conducted Seminar, Hands-On, and doubt classes for junior’s.",
   },
   {
+    title: "Teacher",
+    cardImage: "assets/images/experience-page/NSS.png",
+    description:
+      "Conducted elementary classes for Govt schools and underprivileged",
+  },
+  {
     title: "Head in charge of E-Sports",
     cardImage: "assets/images/experience-page/atharb.png",
     description:
