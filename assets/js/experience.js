@@ -7,7 +7,7 @@ const exp = [
   {
     title: "Research Intern",
     cardImage: "assets/images/experience-page/AIISC.png",
-    place: "AI Institute at University of South California",
+    place: "AI Institute at University of South Carolina",
     time: "(Sept, 2022 - present)",
     desp: "<li>Working on Joint Embeddings for Images and text along with Memotion 3.0",
   },
