@@ -77,7 +77,7 @@ const volunteershipcards = [
     title: "Teacher",
     cardImage: "assets/images/experience-page/NSS.png",
     description:
-      "Conducted elementary classes for Govt schools and underprivileged",
+      "Conducted elementary classes for Govt schools and underprivileged students",
   },
   {
     title: "Head in charge of E-Sports",
