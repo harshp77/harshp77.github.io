@@ -6,7 +6,7 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
-    title: "Organ at Risk segmentation",
+    title: "Organ at Risk segmentation in CT Images",
     cardImage: "assets/images/project-page/oar.png",
     description: "A quiz app built using basic react.",
     tagimg: "",
@@ -22,7 +22,7 @@ const projects = [
     Githublink: "https://github.com/harshp77/Federated-Learning-based-traffic-prediction-in-5G",
   },
   {
-    title: "Exercise buddy for Hearing impaired",
+    title: "Exercise buddy for Hearing impaired - Mediapipe",
     cardImage: "assets/images/project-page/media.png",
     description: "Flappy bird game built using React.js",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
@@ -38,7 +38,7 @@ const projects = [
     Githublink: "https://github.com/harshp77/Imagined-speech-prediction",
   },
   {
-    title: "Turbine Fault prognosis using time series data from various sensor",
+    title: "Turbine Fault prognosis using time series data",
     cardImage: "assets/images/project-page/steam.jpeg",
     description: "Recipe Ingredient Parser built using JavaScript.",
     tagimg:"",
@@ -50,8 +50,8 @@ const projects = [
     cardImage: "assets/images/project-page/flutter.png",
     description: "Poker game built using typescript.",
     tagimg: "https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png",
-    Previewlink: "https://drive.google.com/file/d/1yrz7m9oHdMdF1GKeHKi8VhveQKTIBkgv/view",
-//    Githublink: "",
+//    Previewlink: "",
+    Githublink: "https://drive.google.com/file/d/1yrz7m9oHdMdF1GKeHKi8VhveQKTIBkgv/view",
   },
   {
     title: "Server-based Forest Fire Detection System",
@@ -64,6 +64,7 @@ const projects = [
   },
 ];
 
+//                  <li><a href="${Previewlink}" class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" viewBox="0 0 30 28" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-monitor"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg></a></li>
 // function for rendering project cards data
 const showCards = () => {
   let output = "";
@@ -79,8 +80,8 @@ const showCards = () => {
                 <h1 class="title"><a href="#">${title}</a></h1>
                 </div>
             <ul class="menu-content"><br>
-                  <li><a href="${Previewlink}" class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" viewBox="0 0 30 28" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-monitor"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg></a></li>
-                  <li><a href="${Githublink}" class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" viewBox="0 0 30 28" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></li>
+
+                  <li><a href="${Githublink}" class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" width="60" height="45" viewBox="0 0 30 28" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></li>
                 </ul>
               </div>
             </div>

@@ -209,7 +209,7 @@ a:hover {
 
 @media (min-width: 60rem) {
   .card .data {
-    height: 76%;
+    height: 100%;
   }
 }
 
